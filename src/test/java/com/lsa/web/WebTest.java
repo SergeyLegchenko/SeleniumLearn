@@ -40,7 +40,7 @@ public class WebTest extends BaseTest {
     @DisplayName("Проверка клика")
     void clickElement() throws InterruptedException {
 
-//          HomePage homePage = new HomePage(driver);
+//        HomePage homePage = new HomePage(driver);
         homePage.goToContactUsPage();
         homePage.fillFields("Selenium");
         homePage.checkElements("Selenium");

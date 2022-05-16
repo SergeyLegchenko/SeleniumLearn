@@ -26,7 +26,7 @@ public class WebTest extends BaseTest {
 
         WebElement inside = driver.findElement(By.linkText("INSIGHTS"));
         inside.click();
-
+        // -
         WebElement menu = driver.findElement(By.className("header__menu"));
         WebElement services = menu.findElement(By.linkText("SERVICES"));
         services.click();
@@ -40,7 +40,7 @@ public class WebTest extends BaseTest {
     @DisplayName("Проверка клика")
     void clickElement() throws InterruptedException {
 
-//        HomePage homePage = new HomePage(driver);
+//          HomePage homePage = new HomePage(driver);
         homePage.goToContactUsPage();
         homePage.fillFields("Selenium");
         homePage.checkElements("Selenium");
